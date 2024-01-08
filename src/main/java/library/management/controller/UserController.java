@@ -239,7 +239,7 @@ public class UserController {
 		return "view-borrowed-books";
 	}
 	
-	//open delete-user.jsp file
+	//open delete-user.jsp file using getMapping annotation
 	@GetMapping("/delete-user")
 	public String openDeleteUser() {
 		return "delete-user";
